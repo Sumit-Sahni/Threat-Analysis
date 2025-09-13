@@ -1,40 +1,38 @@
-// src/app/api/admin/route.js
-import pino from 'pino';
+import { promises as fs } from 'fs';
 import path from 'path';
-
-const ROOT = process.cwd();
-const LOG_PATH = process.env.LOG_PATH || path.join(ROOT, 'app.log');
-const logger = pino({}, pino.destination({ dest: LOG_PATH, sync: false }));
+import { logger } from '../../../lib/logger';
 
 export async function GET(req) {
-  try {
-    const url = new URL(req.url);
-    const isAdmin = url.searchParams.get('admin') === 'true';
-    const forwarded = req.headers.get('x-forwarded-for') || '';
-    const remote = (forwarded.split(',')[0].trim() || req.headers.get('x-real-ip') || req.headers.get('host') || '127.0.0.1');
+  const url = new URL(req.url, `http://${req.headers.get('host')}`);
+  const query = url.searchParams.get('q') || '';
 
-    logger.info({
-      event: 'admin_access',
-      timestamp: new Date().toISOString(),
-      remote,
-      path: url.pathname + url.search,
-      params: { admin: url.searchParams.get('admin') },
-      ua: req.headers.get('user-agent') || ''
-    });
+  const forwarded = req.headers.get('x-forwarded-for') || '';
+  const remote = (forwarded.split(',')[0].trim() || req.headers.get('x-real-ip') || '127.0.0.1');
 
-    if (isAdmin) {
-      return new Response(JSON.stringify({ success: true, msg: 'Admin action performed' }), {
-        status: 200,
-        headers: { 'content-type': 'application/json' }
-      });
-    }
+  logger.info({
+    event: 'admin_called',
+    timestamp: new Date().toISOString(),
+    query,
+    remote
+  });
 
-    return new Response(JSON.stringify({ success: false, msg: 'Forbidden' }), {
-      status: 403,
-      headers: { 'content-type': 'application/json' }
-    });
-  } catch (err) {
-    logger.error({ event: 'admin_error', error: String(err) });
-    return new Response(JSON.stringify({ error: 'internal' }), { status: 500 });
-  }
+  const dbFile = path.join(process.cwd(), 'data', 'posts.json');
+  const raw = await fs.readFile(dbFile, 'utf8');
+  const posts = JSON.parse(raw);
+
+  const results = posts.filter(p =>
+    String(p.title).toLowerCase().includes(String(query).toLowerCase())
+  );
+
+  logger.info({
+    event: 'admin_results',
+    timestamp: new Date().toISOString(),
+    query,
+    results: results.length
+  });
+
+  return new Response(JSON.stringify({ count: results.length, results }), {
+    status: 200,
+    headers: { 'content-type': 'application/json' }
+  });
 }

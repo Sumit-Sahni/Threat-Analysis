@@ -1,0 +1,61 @@
+{"level":30,"time":1757766439739,"pid":2067,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T12:27:19.739Z","query":"Filebeatisworking","remote":"::1"}
+{"level":30,"time":1757766439741,"pid":2067,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T12:27:19.741Z","query":"Filebeatisworking","results":0}
+{"level":30,"time":1757766515000,"pid":1234,"hostname":"test","event":"json_test","timestamp":"2025-09-13T12:28:35.3NZ","message":"JSON test entry","query":"test"}
+{"level":30,"time":1757766731774,"pid":2067,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T12:32:11.774Z","query":"nowihave5hit","remote":"::1"}
+{"level":30,"time":1757766731775,"pid":2067,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T12:32:11.775Z","query":"nowihave5hit","results":0}
+{"level":30,"time":1757767162091,"pid":2067,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T12:39:22.091Z","query":"nowihave5hit","remote":"::1"}
+{"level":30,"time":1757767162092,"pid":2067,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T12:39:22.092Z","query":"nowihave5hit","results":0}
+{"level":30,"time":1757767165639,"pid":2067,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T12:39:25.639Z","query":"nowihave5hitzxchbxcbv","remote":"::1"}
+{"level":30,"time":1757767165641,"pid":2067,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T12:39:25.641Z","query":"nowihave5hitzxchbxcbv","results":0}
+{"level":30,"time":1757767171070,"pid":2067,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T12:39:31.070Z","query":"nowihave5hitzxchbxcbvdvcxbvncxvnbxcv","remote":"::1"}
+{"level":30,"time":1757767171073,"pid":2067,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T12:39:31.073Z","query":"nowihave5hitzxchbxcbvdvcxbvncxvnbxcv","results":0}
+{"level":30,"time":1757767173185,"pid":2067,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T12:39:33.185Z","query":"nowihave5hitzxchbxcbvdvcxbvncxvnbxcv","remote":"::1"}
+{"level":30,"time":1757767173186,"pid":2067,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T12:39:33.186Z","query":"nowihave5hitzxchbxcbvdvcxbvncxvnbxcv","results":0}
+{"level":30,"time":1757767179439,"pid":2067,"hostname":"Mac.lan","event":"search_called","timestamp":"2025-09-13T12:39:39.439Z","query":"or ","remote":"::1"}
+{"level":30,"time":1757767179441,"pid":2067,"hostname":"Mac.lan","event":"search_results","timestamp":"2025-09-13T12:39:39.441Z","query":"or ","results":0}
+{"level":30,"time":1757767184945,"pid":2067,"hostname":"Mac.lan","event":"search_called","timestamp":"2025-09-13T12:39:44.945Z","query":"SQL","remote":"::1"}
+{"level":30,"time":1757767184947,"pid":2067,"hostname":"Mac.lan","event":"search_results","timestamp":"2025-09-13T12:39:44.947Z","query":"SQL","results":1}
+{"level":30,"time":1757767185419,"pid":2067,"hostname":"Mac.lan","event":"search_called","timestamp":"2025-09-13T12:39:45.419Z","query":"SQL","remote":"::1"}
+{"level":30,"time":1757767185420,"pid":2067,"hostname":"Mac.lan","event":"search_results","timestamp":"2025-09-13T12:39:45.420Z","query":"SQL","results":1}
+{"level":30,"time":1757767191200,"pid":2067,"hostname":"Mac.lan","event":"search_called","timestamp":"2025-09-13T12:39:51.200Z","query":"admin23232323","remote":"::1"}
+{"level":30,"time":1757767191201,"pid":2067,"hostname":"Mac.lan","event":"search_results","timestamp":"2025-09-13T12:39:51.201Z","query":"admin23232323","results":0}
+{"level":30,"time":1757767191479,"pid":2067,"hostname":"Mac.lan","event":"search_called","timestamp":"2025-09-13T12:39:51.479Z","query":"admin23232323","remote":"::1"}
+{"level":30,"time":1757767191480,"pid":2067,"hostname":"Mac.lan","event":"search_results","timestamp":"2025-09-13T12:39:51.480Z","query":"admin23232323","results":0}
+{"level":30,"time":1757767192217,"pid":2067,"hostname":"Mac.lan","event":"search_called","timestamp":"2025-09-13T12:39:52.217Z","query":"admin23232323","remote":"::1"}
+{"level":30,"time":1757767192218,"pid":2067,"hostname":"Mac.lan","event":"search_results","timestamp":"2025-09-13T12:39:52.218Z","query":"admin23232323","results":0}
+{"level":30,"time":1757767373369,"pid":2067,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T12:42:53.369Z","query":"SumitSahni","remote":"::1"}
+{"level":30,"time":1757767373370,"pid":2067,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T12:42:53.370Z","query":"SumitSahni","results":0}
+{"level":30,"time":1757767920000,"pid":1234,"hostname":"test","event":"json_test","timestamp":"2025-09-13T12:52:00.3NZ","message":"JSON test entry","query":"test"}
+{"level":30,"time":1757767947708,"pid":2067,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T12:52:27.708Z","query":"fromurl","remote":"::1"}
+{"level":30,"time":1757767947709,"pid":2067,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T12:52:27.709Z","query":"fromurl","results":0}
+{"level":30,"time":1757767957609,"pid":2067,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T12:52:37.609Z","query":"fromurlagain","remote":"::1"}
+{"level":30,"time":1757767957611,"pid":2067,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T12:52:37.611Z","query":"fromurlagain","results":0}
+{"level":30,"time":1757768020742,"pid":2067,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T12:53:40.742Z","query":"fromurlagainsdjhghds","remote":"::1"}
+{"level":30,"time":1757768020743,"pid":2067,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T12:53:40.743Z","query":"fromurlagainsdjhghds","results":0}
+{"level":30,"time":1757768026862,"pid":2067,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T12:53:46.862Z","query":"fromurlagainsdjhghdssdkjhjsd","remote":"::1"}
+{"level":30,"time":1757768026865,"pid":2067,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T12:53:46.865Z","query":"fromurlagainsdjhghdssdkjhjsd","results":0}
+{"level":30,"time":1757768124406,"pid":2067,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T12:55:24.406Z","query":"speedtest","remote":"::1"}
+{"level":30,"time":1757768124407,"pid":2067,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T12:55:24.407Z","query":"speedtest","results":0}
+{"level":30,"time":1757768192925,"pid":2067,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T12:56:32.925Z","query":"newconfig","remote":"::1"}
+{"level":30,"time":1757768192926,"pid":2067,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T12:56:32.926Z","query":"newconfig","results":0}
+{"level":30,"time":1757768340817,"pid":8103,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T12:59:00.816Z","query":"today","remote":"::1"}
+{"level":30,"time":1757768340819,"pid":8103,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T12:59:00.819Z","query":"today","results":0}
+{"level":30,"time":1757768442119,"pid":8103,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T13:00:42.118Z","query":"speedtest","remote":"::1"}
+{"level":30,"time":1757768442120,"pid":8103,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T13:00:42.120Z","query":"speedtest","results":0}
+{"level":30,"time":1757768486175,"pid":8103,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T13:01:26.175Z","query":"todayjhvhv","remote":"::1"}
+{"level":30,"time":1757768486178,"pid":8103,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T13:01:26.178Z","query":"todayjhvhv","results":0}
+{"level":30,"time":1757768505735,"pid":8103,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T13:01:45.735Z","query":"todayjhvhvghcgggv","remote":"::1"}
+{"level":30,"time":1757768505736,"pid":8103,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T13:01:45.736Z","query":"todayjhvhvghcgggv","results":0}
+{"level":30,"time":1757768521874,"pid":8103,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T13:02:01.874Z","query":"speedtest","remote":"::1"}
+{"level":30,"time":1757768521875,"pid":8103,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T13:02:01.875Z","query":"speedtest","results":0}
+{"level":30,"time":1757768713242,"pid":8103,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T13:05:13.242Z","query":"todayjhvhvghcgggvhfhghggjh","remote":"::1"}
+{"level":30,"time":1757768713244,"pid":8103,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T13:05:13.244Z","query":"todayjhvhvghcgggvhfhghggjh","results":0}
+{"level":30,"time":1757768903601,"pid":8103,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T13:08:23.601Z","query":"todayjhvhvghcgggvhfhghggjhjhgg","remote":"::1"}
+{"level":30,"time":1757768903604,"pid":8103,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T13:08:23.604Z","query":"todayjhvhvghcgggvhfhghggjhjhgg","results":0}
+{"level":30,"time":1757768951788,"pid":8103,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T13:09:11.788Z","query":"nb bn b bn.","remote":"::1"}
+{"level":30,"time":1757768951790,"pid":8103,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T13:09:11.790Z","query":"nb bn b bn.","results":0}
+{"level":30,"time":1757768969190,"pid":8103,"hostname":"Mac.lan","event":"search_called","timestamp":"2025-09-13T13:09:29.190Z","query":"SQL","remote":"::1"}
+{"level":30,"time":1757768969192,"pid":8103,"hostname":"Mac.lan","event":"search_results","timestamp":"2025-09-13T13:09:29.192Z","query":"SQL","results":1}
+{"timestamp":"2025-09-13T13:12:17.000Z","level":"info","event":"test","message":"This should work","user":"test"}
+{"level":30,"time":1757769313066,"pid":8103,"hostname":"Mac.lan","event":"admin_called","timestamp":"2025-09-13T13:15:13.066Z","query":"finaltest","remote":"::1"}
+{"level":30,"time":1757769313070,"pid":8103,"hostname":"Mac.lan","event":"admin_results","timestamp":"2025-09-13T13:15:13.070Z","query":"finaltest","results":0}

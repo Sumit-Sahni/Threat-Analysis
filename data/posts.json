@@ -1,8 +1,0 @@
-[
-  { "id": 1, "title": "Introduction to servers" },
-  { "id": 2, "title": "How to secure cookies" },
-  { "id": 3, "title": "SQL basics and queries" },
-  { "id": 4, "title": "Cross-site scripting examples" },
-  { "id": 5, "title": "Authentication patterns" },
-  { "id": 6, "title": "Input validation 101" }
-]
